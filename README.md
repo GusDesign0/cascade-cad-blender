@@ -2,15 +2,28 @@
 
 Modelagem de sólidos CAD dentro do Blender, com **Open CASCADE** via CadQuery/OCP. Inclui fillet e chanfro por arraste com prévia no viewport, booleanas e arquivos STEP.
 
-**[Baixar versão 0.2.0](https://github.com/GusDesign0/cascade-cad-blender/releases/tag/v0.2.0)** · [Guia do fillet interativo](docs/fillet-interativo.md)
+**[Baixar versão 0.3.0](https://github.com/GusDesign0/cascade-cad-blender/releases/tag/v0.3.0)** · [Guia do fillet interativo](docs/fillet-interativo.md)
 
 ![Prévia CAD real no Blender](docs/images/fillet-preview.png)
 
+## Novo na versão 0.3.0: remesh protegido
+
+- **QuadWild + Bi-MDF** em processo separado, com cancelamento e prévia em wire ciano.
+- Guias por limites CAD, quinas, sharp, seams, materiais e face sets.
+- Validação independente de quads, manifold, ilhas, Euler, faces degeneradas e desvios amostrados em milímetros.
+- **Adaptativo protegido**: tenta a retopologia; usa conversão fiel identificada no relatório quando a tentativa não passa. **QuadWild estrito**: rejeita a tentativa. **Superfície fiel**: conversão linear, sem promessa de reduzir faces.
+- Aplicar cria uma nova malha e guarda o original oculto; desfazer/refazer validado no Blender.
+- **[Manual ilustrado de 30 páginas (PDF)](https://github.com/GusDesign0/cascade-cad-blender/releases/download/v0.3.0/Manual_CascadeCAD_030.pdf)**: cada ferramenta, antes/depois, controles e limitações.
+
+No viewport: **N > CAD > CASCADE / Remesh de quads**. Instale o motor opcional pelo painel (Windows x64), selecione uma malha fechada e use **Gerar prévia de quads > Aplicar**. Veja [o guia técnico](docs/remesh.md).
+
+O motor nativo é baixado do release oficial QRemeshify 1.1.0, com SHA-256 verificado; suas DLLs não são redistribuídas no ZIP. A conversão fiel não precisa dessas DLLs. O download inicial exige internet; o processamento posterior é local. Remesh não cria BREP: resultados são malhas Blender, não sólidos exportáveis em STEP.
+
 ## Instalação no Windows
 
-1. Na página de [releases](https://github.com/GusDesign0/cascade-cad-blender/releases/latest), baixe **CascadeCAD-0.2.0-completo.zip** e extraia para uma pasta permanente.
+1. Na página de [releases](https://github.com/GusDesign0/cascade-cad-blender/releases/latest), baixe **CascadeCAD-0.3.0-completo.zip** e extraia para uma pasta permanente.
 2. Execute **Instalar_Motor_CAD.cmd**. Ele instala Python 3.12.10, CadQuery 2.6.1 e OCP 7.8.1.1.post1 em `%LOCALAPPDATA%\CascadeCAD\runtime`, separado do Python do Blender. Não exige administrador. O primeiro download precisa de internet; depois o motor funciona offline.
-3. No Blender, abra **Edit → Preferences → Get Extensions → menu → Install from Disk**, selecione **CascadeCAD-0.2.0.zip** e habilite a extensão. Algumas versões mostram essa opção no menu de **Add-ons**.
+3. No Blender, abra **Edit → Preferences → Get Extensions → menu → Install from Disk**, selecione **CascadeCAD-0.3.0.zip** e habilite a extensão. Algumas versões mostram essa opção no menu de **Add-ons**.
 4. No viewport, pressione **N** e abra a aba **CAD**. Use **Shift+Q** para o menu rápido.
 
 O ZIP com `completo` contém o instalador, o código, o guia e exemplos. O ZIP menor é a extensão que você instala no Blender. O download automático **Source code** do GitHub contém o projeto para desenvolvimento; ele não é o ZIP instalável.
@@ -88,3 +101,7 @@ Extensão: **GPL-3.0-or-later**; veja [LICENSE](LICENSE). CadQuery, OCP, Open CA
 
 Projeto independente, sem vínculo com Plasticity, Siemens ou Open Cascade SAS. A referência de interação é o [manual oficial de Fillet Shell do Plasticity](https://doc.plasticity.xyz/solid/fillet-shell).
 
+
+### Teste na KAIRO (Windows x64 / Blender 5.2.2 LTS)
+
+49 peças, 951.410 quads finais; 32 peças via QuadWild (5 com refinamento) e 17 via conversão fiel protegida. Maior desvio amostrado: 0,03234 mm, com tolerância de 0,035 mm. Processamento de 211,8 segundos neste computador, uma tentativa adaptativa por peça. As 48 conexões peça/suporte foram verificadas por interseção nas malhas finais reabertas. O arquivo artístico e o relatório completo estão nos assets da release. Este é um caso de teste, não um benchmark universal.

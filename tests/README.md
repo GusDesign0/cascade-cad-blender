@@ -14,3 +14,11 @@ Execute a partir da pasta principal do pacote. Os scripts gravam os relatorios e
 
 O pacote entregue foi verificado no Blender 5.2.2 LTS, Windows x64, Python 3.12 e CadQuery 2.6.1/OCP 7.8.1.1. Outras versoes nao foram verificadas.
 
+
+## Versao 0.3: remesh protegido
+
+`blender -b -t 4 --factory-startup --python tests/test_remesh.py` testa conversao fiel, snapshot imutavel, parent/matriz, UV, materiais, rejeicao de origem alterada e malha aberta. A fixture CAD esta incluida; nao precisa executar os outros testes antes.
+
+`blender -t 4 --factory-startup --enable-event-simulate --python tests/test_remesh_gui.py` verifica cancelamento, overlay GPU, aplicacao por menu real, undo/redo e cancelamento ao carregar outro arquivo. Abre e fecha uma janela propria.
+
+A validacao da KAIRO e um benchmark artistico separado, com 49 objetos; o relatorio e a cena ficam nos assets da release. Nao e uma garantia de desempenho ou fidelidade para outros modelos.

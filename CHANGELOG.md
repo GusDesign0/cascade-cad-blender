@@ -1,3 +1,13 @@
+# Changelog
+
+## 0.3.0
+
+- Remesh QuadWild + Bi-MDF com guias, comparação geométrica e conversão fiel protegida.
+- Prévia GPU, processamento isolado cancelável, preservação de originais, UV/materiais e desfazer/refazer.
+- Instalador opcional com hashes fixos; sem DLL nativa redistribuída.
+- Manual PDF ilustrado de 30 páginas e exemplo editável do remesh.
+- Testes de cancelamento, prévia, aplicação, desfazer/refazer, origem alterada, materiais/UV e ciclo de vida.
+
 # Histórico
 
 ## 0.2.0

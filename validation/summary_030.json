@@ -1,0 +1,22 @@
+{
+  "version": "0.3.0",
+  "blender": "5.2.2 LTS",
+  "platform": "Windows x64",
+  "objects": 49,
+  "methods": {
+    "EXACT_FALLBACK": 17,
+    "QUADWILD_REFINED": 5,
+    "QUADWILD": 27
+  },
+  "quads": 951410,
+  "triangle_faces": 0,
+  "ngon_faces": 0,
+  "sampled_max_mm": 0.03233643806612728,
+  "tolerance_mm": 0.03500000014901161,
+  "elapsed_s": 211.8,
+  "mesh_contacts": 48,
+  "all_contacts_intersect": true,
+  "source_BREP_preserved": true,
+  "PDF_pages": 30,
+  "limits": "Sampled distances are not a certified Hausdorff bound. Results do not guarantee general model performance."
+}

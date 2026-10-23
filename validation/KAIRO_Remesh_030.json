@@ -1,0 +1,4190 @@
+{
+  "ok": true,
+  "objects": [
+    {
+      "source": "CAD | 01 | Corpo — contorno da referencia",
+      "mesh": "CC_REMESH_0000",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 31602,
+      "faces": 94656,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 94656,
+          "edges": 189312,
+          "faces": 94656,
+          "components": 1,
+          "euler": 0,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 94656
+        },
+        "sampled_max_mm": 0.03000754934730509,
+        "sampled_mean_mm": 6.898850497041455e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 42070,
+        "guide_segments_tested": 4157,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 28355,
+            "edges": 56710,
+            "faces": 28355,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 28355
+          },
+          "sampled_max_mm": 0.10932885743822318,
+          "sampled_mean_mm": 0.015450160262967926,
+          "guide_surface_max_mm": 0.060981138469969616,
+          "samples": 39200,
+          "guide_segments_tested": 4157,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 28355,
+            "edges": 56710,
+            "faces": 28355,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 28355
+          },
+          "sampled_max_mm": 0.10932885743822318,
+          "sampled_mean_mm": 0.015450160262967926,
+          "guide_surface_max_mm": 0.060981138469969616,
+          "samples": 39200,
+          "guide_segments_tested": 4157,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 113420,
+            "edges": 226840,
+            "faces": 113420,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 113420
+          },
+          "sampled_max_mm": 0.10179946336349675,
+          "sampled_mean_mm": 0.015072525073321793,
+          "guide_surface_max_mm": 0.060972936968786494,
+          "samples": 41687,
+          "guide_segments_tested": 4157,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 94656,
+            "edges": 189312,
+            "faces": 94656,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 94656
+          },
+          "sampled_max_mm": 0.03000754934730509,
+          "sampled_mean_mm": 6.898850497041455e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 42070,
+          "guide_segments_tested": 4157,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 02 | Punho — contorno ergonomico",
+      "mesh": "CC_REMESH_0001",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 12870,
+      "faces": 38538,
+      "materials": [
+        "Borracha preta"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 38540,
+          "edges": 77076,
+          "faces": 38538,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 38538
+        },
+        "sampled_max_mm": 0.022298489518789166,
+        "sampled_mean_mm": 0.00010125518236686162,
+        "guide_surface_max_mm": 0.0,
+        "samples": 33494,
+        "guide_segments_tested": 2314,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 5928,
+            "edges": 11852,
+            "faces": 5926,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5926
+          },
+          "sampled_max_mm": 0.15674148996874748,
+          "sampled_mean_mm": 0.025456951383894956,
+          "guide_surface_max_mm": 0.08765457936878528,
+          "samples": 30628,
+          "guide_segments_tested": 2314,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 5928,
+            "edges": 11852,
+            "faces": 5926,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5926
+          },
+          "sampled_max_mm": 0.15674187016176253,
+          "sampled_mean_mm": 0.025359900169273513,
+          "guide_surface_max_mm": 0.08765457936878528,
+          "samples": 30628,
+          "guide_segments_tested": 2314,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 23706,
+            "edges": 47408,
+            "faces": 23704,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 23704
+          },
+          "sampled_max_mm": 0.04609111857708848,
+          "sampled_mean_mm": 0.00583548368272529,
+          "guide_surface_max_mm": 0.04609111857708848,
+          "samples": 36553,
+          "guide_segments_tested": 2314,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 38540,
+            "edges": 77076,
+            "faces": 38538,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 38538
+          },
+          "sampled_max_mm": 0.022298489518789166,
+          "sampled_mean_mm": 0.00010125518236686162,
+          "guide_surface_max_mm": 0.0,
+          "samples": 33494,
+          "guide_segments_tested": 2314,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 03 | Sapata inferior do punho",
+      "mesh": "CC_REMESH_0002",
+      "method": "QUADWILD_REFINED",
+      "source_faces": 7242,
+      "faces": 11192,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 11194,
+          "edges": 22384,
+          "faces": 11192,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 11192
+        },
+        "sampled_max_mm": 0.02882374337593861,
+        "sampled_mean_mm": 0.0037717365662239296,
+        "guide_surface_max_mm": 0.022561869265941076,
+        "samples": 33230,
+        "guide_segments_tested": 1012,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 2800,
+            "edges": 5596,
+            "faces": 2798,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2798
+          },
+          "sampled_max_mm": 0.08291098565474468,
+          "sampled_mean_mm": 0.02246701710234548,
+          "guide_surface_max_mm": 0.04657980484142917,
+          "samples": 19240,
+          "guide_segments_tested": 1012,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 2800,
+            "edges": 5596,
+            "faces": 2798,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2798
+          },
+          "sampled_max_mm": 0.08291098565474468,
+          "sampled_mean_mm": 0.022445205500189767,
+          "guide_surface_max_mm": 0.04657980484142917,
+          "samples": 19240,
+          "guide_segments_tested": 1012,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 11194,
+            "edges": 22384,
+            "faces": 11192,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11192
+          },
+          "sampled_max_mm": 0.02882374337593861,
+          "sampled_mean_mm": 0.0037717365662239296,
+          "guide_surface_max_mm": 0.022561869265941076,
+          "samples": 33230,
+          "guide_segments_tested": 1012,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 04 | Estrutura diagonal",
+      "mesh": "CC_REMESH_0003",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 13944,
+      "faces": 41772,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 41774,
+          "edges": 83544,
+          "faces": 41772,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 41772
+        },
+        "sampled_max_mm": 0.028543991525161884,
+        "sampled_mean_mm": 9.685574153605141e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 36305,
+        "guide_segments_tested": 1957,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 5058,
+            "edges": 10112,
+            "faces": 5056,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5056
+          },
+          "sampled_max_mm": 0.1024707693173617,
+          "sampled_mean_mm": 0.023602567077312165,
+          "guide_surface_max_mm": 0.0848414926510681,
+          "samples": 29096,
+          "guide_segments_tested": 1957,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 5058,
+            "edges": 10112,
+            "faces": 5056,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5056
+          },
+          "sampled_max_mm": 0.10246826199464164,
+          "sampled_mean_mm": 0.02356029186994639,
+          "guide_surface_max_mm": 0.0848414926510681,
+          "samples": 29096,
+          "guide_segments_tested": 1957,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 20226,
+            "edges": 40448,
+            "faces": 20224,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 20224
+          },
+          "sampled_max_mm": 0.03722689569244239,
+          "sampled_mean_mm": 0.005546262421641138,
+          "guide_surface_max_mm": 0.02989010471203754,
+          "samples": 34151,
+          "guide_segments_tested": 1957,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 41774,
+            "edges": 83544,
+            "faces": 41772,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 41772
+          },
+          "sampled_max_mm": 0.028543991525161884,
+          "sampled_mean_mm": 9.685574153605141e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 36305,
+          "guide_segments_tested": 1957,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 05 | Ponte inferior fina",
+      "mesh": "CC_REMESH_0004",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 10802,
+      "faces": 32376,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 32378,
+          "edges": 64752,
+          "faces": 32376,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 32376
+        },
+        "sampled_max_mm": 0.007757057586230359,
+        "sampled_mean_mm": 4.058841850549795e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 37775,
+        "guide_segments_tested": 1142,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 6060,
+            "edges": 12116,
+            "faces": 6058,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 6058
+          },
+          "sampled_max_mm": 0.0975196258708437,
+          "sampled_mean_mm": 0.00888400009745411,
+          "guide_surface_max_mm": 0.0975196258708437,
+          "samples": 28308,
+          "guide_segments_tested": 1142,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 6060,
+            "edges": 12116,
+            "faces": 6058,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 6058
+          },
+          "sampled_max_mm": 0.0975196258708437,
+          "sampled_mean_mm": 0.00888400009745411,
+          "guide_surface_max_mm": 0.0975196258708437,
+          "samples": 28308,
+          "guide_segments_tested": 1142,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 24234,
+            "edges": 48464,
+            "faces": 24232,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 24232
+          },
+          "sampled_max_mm": 0.10158909443901773,
+          "sampled_mean_mm": 0.008089041428402045,
+          "guide_surface_max_mm": 0.09252803045738409,
+          "samples": 33961,
+          "guide_segments_tested": 1142,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 32378,
+            "edges": 64752,
+            "faces": 32376,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 32376
+          },
+          "sampled_max_mm": 0.007757057586230359,
+          "sampled_mean_mm": 4.058841850549795e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 37775,
+          "guide_segments_tested": 1142,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 06 | Degrau frontal",
+      "mesh": "CC_REMESH_0005",
+      "method": "QUADWILD",
+      "source_faces": 6628,
+      "faces": 11478,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 11480,
+          "edges": 22956,
+          "faces": 11478,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 11478
+        },
+        "sampled_max_mm": 0.009852426067668297,
+        "sampled_mean_mm": 0.0007296199863697566,
+        "guide_surface_max_mm": 0.00047346028642185887,
+        "samples": 32890,
+        "guide_segments_tested": 672,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 11480,
+            "edges": 22956,
+            "faces": 11478,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11478
+          },
+          "sampled_max_mm": 0.009852426067668297,
+          "sampled_mean_mm": 0.0007296199863697566,
+          "guide_surface_max_mm": 0.00047346028642185887,
+          "samples": 32890,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 07 | Degrau traseiro",
+      "mesh": "CC_REMESH_0006",
+      "method": "QUADWILD",
+      "source_faces": 6764,
+      "faces": 11141,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 11143,
+          "edges": 22282,
+          "faces": 11141,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 11141
+        },
+        "sampled_max_mm": 0.02656205246510308,
+        "sampled_mean_mm": 0.0022099103912028794,
+        "guide_surface_max_mm": 0.022869577411908364,
+        "samples": 32420,
+        "guide_segments_tested": 668,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 11143,
+            "edges": 22282,
+            "faces": 11141,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11141
+          },
+          "sampled_max_mm": 0.02656205246510308,
+          "sampled_mean_mm": 0.0022099103912028794,
+          "guide_surface_max_mm": 0.022869577411908364,
+          "samples": 32420,
+          "guide_segments_tested": 668,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 08 | Mira compacta",
+      "mesh": "CC_REMESH_0007",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 17646,
+      "faces": 52860,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 52860,
+          "edges": 105720,
+          "faces": 52860,
+          "components": 1,
+          "euler": 0,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 52860
+        },
+        "sampled_max_mm": 0.008726716173020262,
+        "sampled_mean_mm": 3.5384622918477114e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 39939,
+        "guide_segments_tested": 2178,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 9517,
+            "edges": 19034,
+            "faces": 9517,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9517
+          },
+          "sampled_max_mm": 0.2000004743651095,
+          "sampled_mean_mm": 0.008548894453402196,
+          "guide_surface_max_mm": 0.03936829240020746,
+          "samples": 36654,
+          "guide_segments_tested": 2178,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 9517,
+            "edges": 19034,
+            "faces": 9517,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9517
+          },
+          "sampled_max_mm": 0.2000004743651095,
+          "sampled_mean_mm": 0.008503466081146056,
+          "guide_surface_max_mm": 0.03936829240020746,
+          "samples": 36654,
+          "guide_segments_tested": 2178,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 38068,
+            "edges": 76136,
+            "faces": 38068,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 38068
+          },
+          "sampled_max_mm": 0.20000141344469333,
+          "sampled_mean_mm": 0.0023094154408157173,
+          "guide_surface_max_mm": 0.017852115648729686,
+          "samples": 38014,
+          "guide_segments_tested": 2178,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 52860,
+            "edges": 105720,
+            "faces": 52860,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 52860
+          },
+          "sampled_max_mm": 0.008726716173020262,
+          "sampled_mean_mm": 3.5384622918477114e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 39939,
+          "guide_segments_tested": 2178,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 09 | Base da mira",
+      "mesh": "CC_REMESH_0008",
+      "method": "QUADWILD",
+      "source_faces": 6628,
+      "faces": 11354,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 11356,
+          "edges": 22708,
+          "faces": 11354,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 11354
+        },
+        "sampled_max_mm": 0.019220825578989957,
+        "sampled_mean_mm": 0.001357661843502057,
+        "guide_surface_max_mm": 0.019054582289356376,
+        "samples": 32642,
+        "guide_segments_tested": 672,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 11356,
+            "edges": 22708,
+            "faces": 11354,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11354
+          },
+          "sampled_max_mm": 0.019220825578989957,
+          "sampled_mean_mm": 0.001357661843502057,
+          "guide_surface_max_mm": 0.019054582289356376,
+          "samples": 32642,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 10 | Painel superior chanfrado",
+      "mesh": "CC_REMESH_0009",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 35188,
+      "faces": 105396,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 105398,
+          "edges": 210792,
+          "faces": 105396,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 105396
+        },
+        "sampled_max_mm": 0.03124949219669316,
+        "sampled_mean_mm": 1.1560916411336004e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 43917,
+        "guide_segments_tested": 4320,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 53969,
+            "edges": 107934,
+            "faces": 53967,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 53967
+          },
+          "sampled_max_mm": 0.04321407220473533,
+          "sampled_mean_mm": 0.0037957175196272836,
+          "guide_surface_max_mm": 0.04321543050859132,
+          "samples": 43282,
+          "guide_segments_tested": 4320,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 53969,
+            "edges": 107934,
+            "faces": 53967,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 53967
+          },
+          "sampled_max_mm": 0.04321407220473533,
+          "sampled_mean_mm": 0.0037957175196272836,
+          "guide_surface_max_mm": 0.04321543050859132,
+          "samples": 43282,
+          "guide_segments_tested": 4320,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 215870,
+            "edges": 431736,
+            "faces": 215868,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 215868
+          },
+          "sampled_max_mm": 0.04320994837917808,
+          "sampled_mean_mm": 0.0037316743329467474,
+          "guide_surface_max_mm": 0.04320994837917808,
+          "samples": 44481,
+          "guide_segments_tested": 4320,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 105398,
+            "edges": 210792,
+            "faces": 105396,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 105396
+          },
+          "sampled_max_mm": 0.03124949219669316,
+          "sampled_mean_mm": 1.1560916411336004e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 43917,
+          "guide_segments_tested": 4320,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 11 | Linha inferior da ventilacao",
+      "mesh": "CC_REMESH_0010",
+      "method": "QUADWILD",
+      "source_faces": 6484,
+      "faces": 12570,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 12572,
+          "edges": 25140,
+          "faces": 12570,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 12570
+        },
+        "sampled_max_mm": 0.015795492322864542,
+        "sampled_mean_mm": 0.001065622812172537,
+        "guide_surface_max_mm": 0.011541204162978888,
+        "samples": 24382,
+        "guide_segments_tested": 600,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 12572,
+            "edges": 25140,
+            "faces": 12570,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 12570
+          },
+          "sampled_max_mm": 0.015795492322864542,
+          "sampled_mean_mm": 0.001065622812172537,
+          "guide_surface_max_mm": 0.011541204162978888,
+          "samples": 24382,
+          "guide_segments_tested": 600,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 12 | Tampa traseira pequena",
+      "mesh": "CC_REMESH_0011",
+      "method": "QUADWILD_REFINED",
+      "source_faces": 6624,
+      "faces": 7040,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 7042,
+          "edges": 14080,
+          "faces": 7040,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 7040
+        },
+        "sampled_max_mm": 0.011889510759366504,
+        "sampled_mean_mm": 0.003009420834256896,
+        "guide_surface_max_mm": 0.006309101023258897,
+        "samples": 24008,
+        "guide_segments_tested": 670,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 1762,
+            "edges": 3520,
+            "faces": 1760,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1760
+          },
+          "sampled_max_mm": 0.043669627711415124,
+          "sampled_mean_mm": 0.016342216398982756,
+          "guide_surface_max_mm": 0.025091727659812664,
+          "samples": 15208,
+          "guide_segments_tested": 670,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 1762,
+            "edges": 3520,
+            "faces": 1760,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1760
+          },
+          "sampled_max_mm": 0.04366958770644571,
+          "sampled_mean_mm": 0.016325379034004855,
+          "guide_surface_max_mm": 0.025091727659812664,
+          "samples": 15208,
+          "guide_segments_tested": 670,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 7042,
+            "edges": 14080,
+            "faces": 7040,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 7040
+          },
+          "sampled_max_mm": 0.011889510759366504,
+          "sampled_mean_mm": 0.003009420834256896,
+          "guide_surface_max_mm": 0.006309101023258897,
+          "samples": 24008,
+          "guide_segments_tested": 670,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 13 | Carenagem lateral escalonada",
+      "mesh": "CC_REMESH_0012",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 16258,
+      "faces": 48720,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 48722,
+          "edges": 97440,
+          "faces": 48720,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 48720
+        },
+        "sampled_max_mm": 0.007839636495422063,
+        "sampled_mean_mm": 3.140234291900913e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 36814,
+        "guide_segments_tested": 1878,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 19303,
+            "edges": 38602,
+            "faces": 19301,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 19301
+          },
+          "sampled_max_mm": 0.04632006782566637,
+          "sampled_mean_mm": 0.0034131236989144026,
+          "guide_surface_max_mm": 0.04632006782566637,
+          "samples": 35545,
+          "guide_segments_tested": 1878,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 19303,
+            "edges": 38602,
+            "faces": 19301,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 19301
+          },
+          "sampled_max_mm": 0.04632006782566637,
+          "sampled_mean_mm": 0.0034131236989144026,
+          "guide_surface_max_mm": 0.04632006782566637,
+          "samples": 35545,
+          "guide_segments_tested": 1878,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 77206,
+            "edges": 154408,
+            "faces": 77204,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 77204
+          },
+          "sampled_max_mm": 0.2619505610237283,
+          "sampled_mean_mm": 0.0032561691602926665,
+          "guide_surface_max_mm": 0.04743906588329452,
+          "samples": 39150,
+          "guide_segments_tested": 1878,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 48722,
+            "edges": 97440,
+            "faces": 48720,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 48720
+          },
+          "sampled_max_mm": 0.007839636495422063,
+          "sampled_mean_mm": 3.140234291900913e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 36814,
+          "guide_segments_tested": 1878,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 14 | Fundo da linha longitudinal",
+      "mesh": "CC_REMESH_0013",
+      "method": "QUADWILD",
+      "source_faces": 6004,
+      "faces": 8362,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 8364,
+          "edges": 16724,
+          "faces": 8362,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 8362
+        },
+        "sampled_max_mm": 0.008847529937842737,
+        "sampled_mean_mm": 0.0007739721730068322,
+        "guide_surface_max_mm": 0.007455176072873183,
+        "samples": 25722,
+        "guide_segments_tested": 360,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 8364,
+            "edges": 16724,
+            "faces": 8362,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 8362
+          },
+          "sampled_max_mm": 0.008847529937842737,
+          "sampled_mean_mm": 0.0007739721730068322,
+          "guide_surface_max_mm": 0.007455176072873183,
+          "samples": 25722,
+          "guide_segments_tested": 360,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 15 | Botao retangular rebaixado",
+      "mesh": "CC_REMESH_0014",
+      "method": "QUADWILD_REFINED",
+      "source_faces": 6628,
+      "faces": 6312,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 6314,
+          "edges": 12624,
+          "faces": 6312,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 6312
+        },
+        "sampled_max_mm": 0.012468579533288967,
+        "sampled_mean_mm": 0.0035405938750450415,
+        "guide_surface_max_mm": 0.0066142529755331796,
+        "samples": 22558,
+        "guide_segments_tested": 672,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 1580,
+            "edges": 3156,
+            "faces": 1578,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1578
+          },
+          "sampled_max_mm": 0.045917877109027186,
+          "sampled_mean_mm": 0.01890589574807329,
+          "guide_surface_max_mm": 0.025610103982957804,
+          "samples": 14668,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 1580,
+            "edges": 3156,
+            "faces": 1578,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1578
+          },
+          "sampled_max_mm": 0.045917891110918874,
+          "sampled_mean_mm": 0.01889681321001288,
+          "guide_surface_max_mm": 0.02561005147586398,
+          "samples": 14668,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 6314,
+            "edges": 12624,
+            "faces": 6312,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 6312
+          },
+          "sampled_max_mm": 0.012468579533288967,
+          "sampled_mean_mm": 0.0035405938750450415,
+          "guide_surface_max_mm": 0.0066142529755331796,
+          "samples": 22558,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 16 | Inserto do botao",
+      "mesh": "CC_REMESH_0015",
+      "method": "QUADWILD",
+      "source_faces": 4196,
+      "faces": 2358,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 2360,
+          "edges": 4716,
+          "faces": 2358,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 2358
+        },
+        "sampled_max_mm": 0.011657860391788923,
+        "sampled_mean_mm": 0.0037011666164993495,
+        "guide_surface_max_mm": 0.0064494947109023275,
+        "samples": 13360,
+        "guide_segments_tested": 288,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 2360,
+            "edges": 4716,
+            "faces": 2358,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2358
+          },
+          "sampled_max_mm": 0.011657860391788923,
+          "sampled_mean_mm": 0.0037011666164993495,
+          "guide_surface_max_mm": 0.0064494947109023275,
+          "samples": 13360,
+          "guide_segments_tested": 288,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 17 | Botao inferior",
+      "mesh": "CC_REMESH_0016",
+      "method": "QUADWILD_REFINED",
+      "source_faces": 6628,
+      "faces": 5776,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 5778,
+          "edges": 11552,
+          "faces": 5776,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 5776
+        },
+        "sampled_max_mm": 0.011577252828407028,
+        "sampled_mean_mm": 0.003086911665190629,
+        "guide_surface_max_mm": 0.006139553110445608,
+        "samples": 27262,
+        "guide_segments_tested": 672,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 1446,
+            "edges": 2888,
+            "faces": 1444,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1444
+          },
+          "sampled_max_mm": 0.042638844639974596,
+          "sampled_mean_mm": 0.01807792555356531,
+          "guide_surface_max_mm": 0.023780398412019576,
+          "samples": 14266,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 1446,
+            "edges": 2888,
+            "faces": 1444,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1444
+          },
+          "sampled_max_mm": 0.042638844639974596,
+          "sampled_mean_mm": 0.018068057685504815,
+          "guide_surface_max_mm": 0.023780342895033738,
+          "samples": 14266,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 5778,
+            "edges": 11552,
+            "faces": 5776,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5776
+          },
+          "sampled_max_mm": 0.011577252828407028,
+          "sampled_mean_mm": 0.003086911665190629,
+          "guide_surface_max_mm": 0.006139553110445608,
+          "samples": 27262,
+          "guide_segments_tested": 672,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 18 | Moldura da abertura inferior",
+      "mesh": "CC_REMESH_0017",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 7374,
+      "faces": 22080,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 22080,
+          "edges": 44160,
+          "faces": 22080,
+          "components": 1,
+          "euler": 0,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 22080
+        },
+        "sampled_max_mm": 0.004485834604105614,
+        "sampled_mean_mm": 2.1134179192942915e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 33120,
+        "guide_segments_tested": 1054,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 5465,
+            "edges": 10930,
+            "faces": 5465,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5465
+          },
+          "sampled_max_mm": 0.4097891065617377,
+          "sampled_mean_mm": 0.0028383606681804917,
+          "guide_surface_max_mm": 0.009153011655813552,
+          "samples": 27435,
+          "guide_segments_tested": 1054,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 5465,
+            "edges": 10930,
+            "faces": 5465,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5465
+          },
+          "sampled_max_mm": 0.4097891065617377,
+          "sampled_mean_mm": 0.0028383606681804917,
+          "guide_surface_max_mm": 0.009153011655813552,
+          "samples": 27435,
+          "guide_segments_tested": 1054,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 21860,
+            "edges": 43720,
+            "faces": 21860,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 21860
+          },
+          "sampled_max_mm": 0.35821584948643725,
+          "sampled_mean_mm": 0.0025107544854736643,
+          "guide_surface_max_mm": 0.009152112457829284,
+          "samples": 32900,
+          "guide_segments_tested": 1054,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 22080,
+            "edges": 44160,
+            "faces": 22080,
+            "components": 1,
+            "euler": 0,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 22080
+          },
+          "sampled_max_mm": 0.004485834604105614,
+          "sampled_mean_mm": 2.1134179192942915e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 33120,
+          "guide_segments_tested": 1054,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 19 | Tecla interna escura",
+      "mesh": "CC_REMESH_0018",
+      "method": "QUADWILD_REFINED",
+      "source_faces": 6878,
+      "faces": 7608,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 7610,
+          "edges": 15216,
+          "faces": 7608,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 7608
+        },
+        "sampled_max_mm": 0.0177283150351829,
+        "sampled_mean_mm": 0.0036629664464287166,
+        "guide_surface_max_mm": 0.011456166678438516,
+        "samples": 25522,
+        "guide_segments_tested": 784,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 1904,
+            "edges": 3804,
+            "faces": 1902,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1902
+          },
+          "sampled_max_mm": 0.06420915809651391,
+          "sampled_mean_mm": 0.02016398000020815,
+          "guide_surface_max_mm": 0.03827673657653777,
+          "samples": 16012,
+          "guide_segments_tested": 784,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 1904,
+            "edges": 3804,
+            "faces": 1902,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1902
+          },
+          "sampled_max_mm": 0.06420915809651391,
+          "sampled_mean_mm": 0.020150999269727916,
+          "guide_surface_max_mm": 0.03827673657653777,
+          "samples": 16012,
+          "guide_segments_tested": 784,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 7610,
+            "edges": 15216,
+            "faces": 7608,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 7608
+          },
+          "sampled_max_mm": 0.0177283150351829,
+          "sampled_mean_mm": 0.0036629664464287166,
+          "guide_surface_max_mm": 0.011456166678438516,
+          "samples": 25522,
+          "guide_segments_tested": 784,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 20 | Carenagem frontal",
+      "mesh": "CC_REMESH_0019",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 22894,
+      "faces": 68592,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 68594,
+          "edges": 137184,
+          "faces": 68592,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 68592
+        },
+        "sampled_max_mm": 0.009365372667690606,
+        "sampled_mean_mm": 1.772639925059096e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 45731,
+        "guide_segments_tested": 2558,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 17410,
+            "edges": 34816,
+            "faces": 17408,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 17408
+          },
+          "sampled_max_mm": 0.03991479219540868,
+          "sampled_mean_mm": 0.0036975335934024962,
+          "guide_surface_max_mm": 0.025931443004447323,
+          "samples": 43177,
+          "guide_segments_tested": 2558,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 17410,
+            "edges": 34816,
+            "faces": 17408,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 17408
+          },
+          "sampled_max_mm": 0.03991479219540868,
+          "sampled_mean_mm": 0.0036975335934024962,
+          "guide_surface_max_mm": 0.025931443004447323,
+          "samples": 43177,
+          "guide_segments_tested": 2558,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 69634,
+            "edges": 139264,
+            "faces": 69632,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 69632
+          },
+          "sampled_max_mm": 0.037805872843917204,
+          "sampled_mean_mm": 0.0035299198414391157,
+          "guide_surface_max_mm": 0.02592833658576232,
+          "samples": 46078,
+          "guide_segments_tested": 2558,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 68594,
+            "edges": 137184,
+            "faces": 68592,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 68592
+          },
+          "sampled_max_mm": 0.009365372667690606,
+          "sampled_mean_mm": 1.772639925059096e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 45731,
+          "guide_segments_tested": 2558,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 21 | Faixa inferior frontal",
+      "mesh": "CC_REMESH_0020",
+      "method": "QUADWILD",
+      "source_faces": 6620,
+      "faces": 9987,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 9989,
+          "edges": 19974,
+          "faces": 9987,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 9987
+        },
+        "sampled_max_mm": 0.017212843932738208,
+        "sampled_mean_mm": 0.0013471106344375592,
+        "guide_surface_max_mm": 0.016769045520679312,
+        "samples": 29896,
+        "guide_segments_tested": 668,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 9989,
+            "edges": 19974,
+            "faces": 9987,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9987
+          },
+          "sampled_max_mm": 0.017212843932738208,
+          "sampled_mean_mm": 0.0013471106344375592,
+          "guide_surface_max_mm": 0.016769045520679312,
+          "samples": 29896,
+          "guide_segments_tested": 668,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 22 | Reforco acima do punho",
+      "mesh": "CC_REMESH_0021",
+      "method": "QUADWILD",
+      "source_faces": 6624,
+      "faces": 2117,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 2119,
+          "edges": 4234,
+          "faces": 2117,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 2117
+        },
+        "sampled_max_mm": 0.03017030153489397,
+        "sampled_mean_mm": 0.005370524256609481,
+        "guide_surface_max_mm": 0.01860921662739605,
+        "samples": 16279,
+        "guide_segments_tested": 670,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 2119,
+            "edges": 4234,
+            "faces": 2117,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2117
+          },
+          "sampled_max_mm": 0.03017030153489397,
+          "sampled_mean_mm": 0.005370524256609481,
+          "guide_surface_max_mm": 0.01860921662739605,
+          "samples": 16279,
+          "guide_segments_tested": 670,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 23 | Inserto de borracha texturada",
+      "mesh": "CC_REMESH_0022",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 13634,
+      "faces": 40860,
+      "materials": [
+        "Borracha | granulado irregular"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 40862,
+          "edges": 81720,
+          "faces": 40860,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 40860
+        },
+        "sampled_max_mm": 0.012652459106597833,
+        "sampled_mean_mm": 3.1019741084224277e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 35513,
+        "guide_segments_tested": 1661,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 6607,
+            "edges": 13210,
+            "faces": 6605,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 6605
+          },
+          "sampled_max_mm": 0.08393886313733828,
+          "sampled_mean_mm": 0.004810144812317555,
+          "guide_surface_max_mm": 0.032592751199125365,
+          "samples": 26834,
+          "guide_segments_tested": 1661,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 6607,
+            "edges": 13210,
+            "faces": 6605,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 6605
+          },
+          "sampled_max_mm": 0.08393886313733828,
+          "sampled_mean_mm": 0.004810144812317555,
+          "guide_surface_max_mm": 0.032592751199125365,
+          "samples": 26834,
+          "guide_segments_tested": 1661,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 26422,
+            "edges": 52840,
+            "faces": 26420,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 26420
+          },
+          "sampled_max_mm": 0.0870096693475819,
+          "sampled_mean_mm": 0.004329794331323585,
+          "guide_surface_max_mm": 0.03475169800234036,
+          "samples": 32998,
+          "guide_segments_tested": 1661,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 40862,
+            "edges": 81720,
+            "faces": 40860,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 40860
+          },
+          "sampled_max_mm": 0.012652459106597833,
+          "sampled_mean_mm": 3.1019741084224277e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 35513,
+          "guide_segments_tested": 1661,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 24 | Friso da sapata",
+      "mesh": "CC_REMESH_0023",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 6364,
+      "faces": 19068,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 19070,
+          "edges": 38136,
+          "faces": 19068,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 19068
+        },
+        "sampled_max_mm": 0.003926485924216289,
+        "sampled_mean_mm": 1.655260465725762e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 28605,
+        "guide_segments_tested": 504,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 2684,
+            "edges": 5364,
+            "faces": 2682,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2682
+          },
+          "sampled_max_mm": 0.053243793993571514,
+          "sampled_mean_mm": 0.004476225465304718,
+          "guide_surface_max_mm": 0.03972573466043038,
+          "samples": 17584,
+          "guide_segments_tested": 504,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 2684,
+            "edges": 5364,
+            "faces": 2682,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2682
+          },
+          "sampled_max_mm": 0.053243793993571514,
+          "sampled_mean_mm": 0.004476225465304718,
+          "guide_surface_max_mm": 0.03972573466043038,
+          "samples": 17584,
+          "guide_segments_tested": 504,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia",
+            "perda de linhas CAD ou vincos"
+          ],
+          "topology": {
+            "vertices": 10730,
+            "edges": 21456,
+            "faces": 10728,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 10728
+          },
+          "sampled_max_mm": 0.04554181313235079,
+          "sampled_mean_mm": 0.003026360404427747,
+          "guide_surface_max_mm": 0.03973180036987888,
+          "samples": 30994,
+          "guide_segments_tested": 504,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 19070,
+            "edges": 38136,
+            "faces": 19068,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 19068
+          },
+          "sampled_max_mm": 0.003926485924216289,
+          "sampled_mean_mm": 1.655260465725762e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 28605,
+          "guide_segments_tested": 504,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 25 | Rebaixo da sapata",
+      "mesh": "CC_REMESH_0024",
+      "method": "QUADWILD",
+      "source_faces": 6104,
+      "faces": 1816,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 1818,
+          "edges": 3632,
+          "faces": 1816,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 1816
+        },
+        "sampled_max_mm": 0.025712231814064023,
+        "sampled_mean_mm": 0.007216120481956438,
+        "guide_surface_max_mm": 0.018228770741594142,
+        "samples": 14596,
+        "guide_segments_tested": 410,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 1818,
+            "edges": 3632,
+            "faces": 1816,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1816
+          },
+          "sampled_max_mm": 0.025712231814064023,
+          "sampled_mean_mm": 0.007216120481956438,
+          "guide_surface_max_mm": 0.018228770741594142,
+          "samples": 14596,
+          "guide_segments_tested": 410,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 26 | Moldura diagonal azul escura",
+      "mesh": "CC_REMESH_0025",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 10590,
+      "faces": 31716,
+      "materials": [
+        "Moldura diagonal | azul grafite"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 31718,
+          "edges": 63432,
+          "faces": 31716,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 31716
+        },
+        "sampled_max_mm": 0.014851953388982939,
+        "sampled_mean_mm": 5.523301600503762e-05,
+        "guide_surface_max_mm": 0.0,
+        "samples": 37005,
+        "guide_segments_tested": 1454,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 5144,
+            "edges": 10284,
+            "faces": 5142,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5142
+          },
+          "sampled_max_mm": 0.046644931444649124,
+          "sampled_mean_mm": 0.0066599309473058515,
+          "guide_surface_max_mm": 0.02896522086182726,
+          "samples": 31288,
+          "guide_segments_tested": 1454,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 5144,
+            "edges": 10284,
+            "faces": 5142,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5142
+          },
+          "sampled_max_mm": 0.04660745035435028,
+          "sampled_mean_mm": 0.006595132158457779,
+          "guide_surface_max_mm": 0.028965197430820596,
+          "samples": 31288,
+          "guide_segments_tested": 1454,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "faces degeneradas",
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 20570,
+            "edges": 41136,
+            "faces": 20568,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 10,
+            "quads": 20568
+          },
+          "sampled_max_mm": 0.04236745207144409,
+          "sampled_mean_mm": 0.006041128627194505,
+          "guide_surface_max_mm": 0.028966697015247192,
+          "samples": 36429,
+          "guide_segments_tested": 1454,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 31718,
+            "edges": 63432,
+            "faces": 31716,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 31716
+          },
+          "sampled_max_mm": 0.014851953388982939,
+          "sampled_mean_mm": 5.523301600503762e-05,
+          "guide_surface_max_mm": 0.0,
+          "samples": 37005,
+          "guide_segments_tested": 1454,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 27 | Canal diagonal rebaixado",
+      "mesh": "CC_REMESH_0026",
+      "method": "QUADWILD",
+      "source_faces": 7896,
+      "faces": 3990,
+      "materials": [
+        "Grafite fosco | paineis"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 3992,
+          "edges": 7980,
+          "faces": 3990,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 3990
+        },
+        "sampled_max_mm": 0.030696841953639736,
+        "sampled_mean_mm": 0.0024678254250974784,
+        "guide_surface_max_mm": 0.016779601940057436,
+        "samples": 23800,
+        "guide_segments_tested": 804,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 3992,
+            "edges": 7980,
+            "faces": 3990,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 3990
+          },
+          "sampled_max_mm": 0.030696841953639736,
+          "sampled_mean_mm": 0.0024678254250974784,
+          "guide_surface_max_mm": 0.016779601940057436,
+          "samples": 23800,
+          "guide_segments_tested": 804,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 28 | Vinca diagonal comprida",
+      "mesh": "CC_REMESH_0027",
+      "method": "QUADWILD",
+      "source_faces": 6100,
+      "faces": 2372,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 2374,
+          "edges": 4744,
+          "faces": 2372,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 2372
+        },
+        "sampled_max_mm": 0.023225516747920665,
+        "sampled_mean_mm": 0.0032155406151564456,
+        "guide_surface_max_mm": 0.023225516747920665,
+        "samples": 16258,
+        "guide_segments_tested": 408,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 2374,
+            "edges": 4744,
+            "faces": 2372,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 2372
+          },
+          "sampled_max_mm": 0.023225516747920665,
+          "sampled_mean_mm": 0.0032155406151564456,
+          "guide_surface_max_mm": 0.023225516747920665,
+          "samples": 16258,
+          "guide_segments_tested": 408,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 29 | Tampa inferior diagonal",
+      "mesh": "CC_REMESH_0028",
+      "method": "QUADWILD",
+      "source_faces": 6494,
+      "faces": 1718,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 1720,
+          "edges": 3436,
+          "faces": 1718,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 1718
+        },
+        "sampled_max_mm": 0.030757413002000668,
+        "sampled_mean_mm": 0.008599006750511102,
+        "guide_surface_max_mm": 0.020935319614484225,
+        "samples": 14884,
+        "guide_segments_tested": 592,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 1720,
+            "edges": 3436,
+            "faces": 1718,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1718
+          },
+          "sampled_max_mm": 0.030757413002000668,
+          "sampled_mean_mm": 0.008599006750511102,
+          "guide_surface_max_mm": 0.020935319614484225,
+          "samples": 14884,
+          "guide_segments_tested": 592,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 30 | Conector circular embutido",
+      "mesh": "CC_REMESH_0029",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 11756,
+      "faces": 35268,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 35270,
+          "edges": 70536,
+          "faces": 35268,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 35268
+        },
+        "sampled_max_mm": 0.00017386900683696602,
+        "sampled_mean_mm": 7.122945683645034e-07,
+        "guide_surface_max_mm": 0.0,
+        "samples": 41149,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 11882,
+            "edges": 23760,
+            "faces": 11880,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11880
+          },
+          "sampled_max_mm": 0.1310444010615622,
+          "sampled_mean_mm": 0.038294382076025854,
+          "guide_surface_max_mm": 0.0038769749727639124,
+          "samples": 41398,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 11882,
+            "edges": 23760,
+            "faces": 11880,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11880
+          },
+          "sampled_max_mm": 0.09988450608114448,
+          "sampled_mean_mm": 0.027660923689549692,
+          "guide_surface_max_mm": 0.0038769749727639124,
+          "samples": 41398,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 47522,
+            "edges": 95040,
+            "faces": 47520,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 47520
+          },
+          "sampled_max_mm": 0.08108165225209663,
+          "sampled_mean_mm": 0.019766054683928346,
+          "guide_surface_max_mm": 0.003804384038978047,
+          "samples": 41397,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 35270,
+            "edges": 70536,
+            "faces": 35268,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 35268
+          },
+          "sampled_max_mm": 0.00017386900683696602,
+          "sampled_mean_mm": 7.122945683645034e-07,
+          "guide_surface_max_mm": 0.0,
+          "samples": 41149,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 31 | Aro do conector",
+      "mesh": "CC_REMESH_0030",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 10496,
+      "faces": 31488,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 31490,
+          "edges": 62976,
+          "faces": 31488,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 31488
+        },
+        "sampled_max_mm": 6.476869023743772e-05,
+        "sampled_mean_mm": 4.6188598847614974e-07,
+        "guide_surface_max_mm": 0.0,
+        "samples": 36739,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 11534,
+            "edges": 23064,
+            "faces": 11532,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11532
+          },
+          "sampled_max_mm": 0.10559922173188521,
+          "sampled_mean_mm": 0.03351200199036688,
+          "guide_surface_max_mm": 0.003923114222279003,
+          "samples": 38812,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 11534,
+            "edges": 23064,
+            "faces": 11532,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11532
+          },
+          "sampled_max_mm": 0.08578548566101465,
+          "sampled_mean_mm": 0.02055735325640624,
+          "guide_surface_max_mm": 0.0039223902901019654,
+          "samples": 38812,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 46130,
+            "edges": 92256,
+            "faces": 46128,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 46128
+          },
+          "sampled_max_mm": 0.0736047582844798,
+          "sampled_mean_mm": 0.0166174335633048,
+          "guide_surface_max_mm": 0.0038727669729691325,
+          "samples": 38811,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 31490,
+            "edges": 62976,
+            "faces": 31488,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 31488
+          },
+          "sampled_max_mm": 6.476869023743772e-05,
+          "sampled_mean_mm": 4.6188598847614974e-07,
+          "guide_surface_max_mm": 0.0,
+          "samples": 36739,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 32 | Centro do conector",
+      "mesh": "CC_REMESH_0031",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 6296,
+      "faces": 18888,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 18890,
+          "edges": 37776,
+          "faces": 18888,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 18888
+        },
+        "sampled_max_mm": 2.5101820503210523e-05,
+        "sampled_mean_mm": 2.421064319253424e-07,
+        "guide_surface_max_mm": 0.0,
+        "samples": 28335,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 9814,
+            "edges": 19624,
+            "faces": 9812,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9812
+          },
+          "sampled_max_mm": 0.06726406889173162,
+          "sampled_mean_mm": 0.016420075674966856,
+          "guide_surface_max_mm": 0.003841086898579941,
+          "samples": 29072,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 9814,
+            "edges": 19624,
+            "faces": 9812,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9812
+          },
+          "sampled_max_mm": 0.05442981980491761,
+          "sampled_mean_mm": 0.010447918971546215,
+          "guide_surface_max_mm": 0.003841086898579941,
+          "samples": 29072,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 39250,
+            "edges": 78496,
+            "faces": 39248,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 39248
+          },
+          "sampled_max_mm": 0.04596114055539912,
+          "sampled_mean_mm": 0.006808570714667312,
+          "guide_surface_max_mm": 0.0034144404839569734,
+          "samples": 30473,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 18890,
+            "edges": 37776,
+            "faces": 18888,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 18888
+          },
+          "sampled_max_mm": 2.5101820503210523e-05,
+          "sampled_mean_mm": 2.421064319253424e-07,
+          "guide_surface_max_mm": 0.0,
+          "samples": 28335,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 33 | Painel junto ao conector",
+      "mesh": "CC_REMESH_0032",
+      "method": "QUADWILD",
+      "source_faces": 6484,
+      "faces": 1472,
+      "materials": [
+        "Aco pintado preto | vincos"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 1474,
+          "edges": 2944,
+          "faces": 1472,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 1472
+        },
+        "sampled_max_mm": 0.03141106959271695,
+        "sampled_mean_mm": 0.010529134535409237,
+        "guide_surface_max_mm": 0.019500950803418064,
+        "samples": 14134,
+        "guide_segments_tested": 600,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 1474,
+            "edges": 2944,
+            "faces": 1472,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1472
+          },
+          "sampled_max_mm": 0.03141106959271695,
+          "sampled_mean_mm": 0.010529134535409237,
+          "guide_surface_max_mm": 0.019500950803418064,
+          "samples": 14134,
+          "guide_segments_tested": 600,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 34 | Canelura traseira 0",
+      "mesh": "CC_REMESH_0033",
+      "method": "QUADWILD",
+      "source_faces": 6100,
+      "faces": 1826,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 1828,
+          "edges": 3652,
+          "faces": 1826,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 1826
+        },
+        "sampled_max_mm": 0.016364602890984684,
+        "sampled_mean_mm": 0.00661887498811362,
+        "guide_surface_max_mm": 0.009136934580558146,
+        "samples": 14620,
+        "guide_segments_tested": 408,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 1828,
+            "edges": 3652,
+            "faces": 1826,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1826
+          },
+          "sampled_max_mm": 0.016364602890984684,
+          "sampled_mean_mm": 0.00661887498811362,
+          "guide_surface_max_mm": 0.009136934580558146,
+          "samples": 14620,
+          "guide_segments_tested": 408,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 34 | Canelura traseira 1",
+      "mesh": "CC_REMESH_0034",
+      "method": "QUADWILD",
+      "source_faces": 6100,
+      "faces": 1826,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 1828,
+          "edges": 3652,
+          "faces": 1826,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 1826
+        },
+        "sampled_max_mm": 0.016364602890984684,
+        "sampled_mean_mm": 0.0066189433190231815,
+        "guide_surface_max_mm": 0.009136934580558146,
+        "samples": 14620,
+        "guide_segments_tested": 408,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 1828,
+            "edges": 3652,
+            "faces": 1826,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1826
+          },
+          "sampled_max_mm": 0.016364602890984684,
+          "sampled_mean_mm": 0.0066189433190231815,
+          "guide_surface_max_mm": 0.009136934580558146,
+          "samples": 14620,
+          "guide_segments_tested": 408,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 34 | Canelura traseira 2",
+      "mesh": "CC_REMESH_0035",
+      "method": "QUADWILD",
+      "source_faces": 6100,
+      "faces": 1826,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 1828,
+          "edges": 3652,
+          "faces": 1826,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 1826
+        },
+        "sampled_max_mm": 0.016364351950343407,
+        "sampled_mean_mm": 0.0066189037794188235,
+        "guide_surface_max_mm": 0.009136917625109412,
+        "samples": 14620,
+        "guide_segments_tested": 408,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 1828,
+            "edges": 3652,
+            "faces": 1826,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 1826
+          },
+          "sampled_max_mm": 0.016364351950343407,
+          "sampled_mean_mm": 0.0066189037794188235,
+          "guide_surface_max_mm": 0.009136917625109412,
+          "samples": 14620,
+          "guide_segments_tested": 408,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 35 | Fixador 00",
+      "mesh": "CC_REMESH_0036",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 11756,
+      "faces": 35268,
+      "materials": [
+        "Fixadores | aco escurecido"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 35270,
+          "edges": 70536,
+          "faces": 35268,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 35268
+        },
+        "sampled_max_mm": 3.80759833337786e-05,
+        "sampled_mean_mm": 8.627890413586476e-08,
+        "guide_surface_max_mm": 0.0,
+        "samples": 41149,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 12780,
+            "edges": 25556,
+            "faces": 12778,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 12778
+          },
+          "sampled_max_mm": 0.058407046308133856,
+          "sampled_mean_mm": 0.023289262162767638,
+          "guide_surface_max_mm": 0.001479330390470763,
+          "samples": 32545,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 12780,
+            "edges": 25556,
+            "faces": 12778,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 12778
+          },
+          "sampled_max_mm": 0.04243881501397641,
+          "sampled_mean_mm": 0.014085670125250789,
+          "guide_surface_max_mm": 0.001479330390470763,
+          "samples": 32545,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "faces degeneradas",
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 51114,
+            "edges": 102224,
+            "faces": 51112,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 6,
+            "quads": 51112
+          },
+          "sampled_max_mm": 0.04203627287287145,
+          "sampled_mean_mm": 0.012714029283482255,
+          "guide_surface_max_mm": 0.0014790438952901094,
+          "samples": 39218,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 35270,
+            "edges": 70536,
+            "faces": 35268,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 35268
+          },
+          "sampled_max_mm": 3.80759833337786e-05,
+          "sampled_mean_mm": 8.627890413586476e-08,
+          "guide_surface_max_mm": 0.0,
+          "samples": 41149,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 36 | Cavidade do fixador 00",
+      "mesh": "CC_REMESH_0037",
+      "method": "QUADWILD",
+      "source_faces": 3356,
+      "faces": 4906,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 4908,
+          "edges": 9812,
+          "faces": 4906,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 4906
+        },
+        "sampled_max_mm": 0.024765374302148056,
+        "sampled_mean_mm": 0.004617401834158965,
+        "guide_surface_max_mm": 0.0011571106974723612,
+        "samples": 19756,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 4908,
+            "edges": 9812,
+            "faces": 4906,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 4906
+          },
+          "sampled_max_mm": 0.024765374302148056,
+          "sampled_mean_mm": 0.004617401834158965,
+          "guide_surface_max_mm": 0.0011571106974723612,
+          "samples": 19756,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 35 | Fixador 01",
+      "mesh": "CC_REMESH_0038",
+      "method": "EXACT_FALLBACK",
+      "source_faces": 11756,
+      "faces": 35268,
+      "materials": [
+        "Fixadores | aco escurecido"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 35270,
+          "edges": 70536,
+          "faces": 35268,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 35268
+        },
+        "sampled_max_mm": 7.862486783382947e-05,
+        "sampled_mean_mm": 1.2980340185014795e-07,
+        "guide_surface_max_mm": 0.0,
+        "samples": 41149,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 11568,
+            "edges": 23132,
+            "faces": 11566,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11566
+          },
+          "sampled_max_mm": 0.07216007764743804,
+          "sampled_mean_mm": 0.024301017203514165,
+          "guide_surface_max_mm": 0.0019515667718492586,
+          "samples": 40770,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 11568,
+            "edges": 23132,
+            "faces": 11566,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 11566
+          },
+          "sampled_max_mm": 0.05608027178960724,
+          "sampled_mean_mm": 0.016653178768261747,
+          "guide_surface_max_mm": 0.0019517414798404442,
+          "samples": 40770,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "refined",
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 46266,
+            "edges": 92528,
+            "faces": 46264,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 46264
+          },
+          "sampled_max_mm": 0.05344997223279074,
+          "sampled_mean_mm": 0.014510706408488309,
+          "guide_surface_max_mm": 0.0019513317823817754,
+          "samples": 40769,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 35270,
+            "edges": 70536,
+            "faces": 35268,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 35268
+          },
+          "sampled_max_mm": 7.862486783382947e-05,
+          "sampled_mean_mm": 1.2980340185014795e-07,
+          "guide_surface_max_mm": 0.0,
+          "samples": 41149,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": "O remesh adaptativo ultrapassou a tolerancia dos detalhes."
+    },
+    {
+      "source": "CAD | 36 | Cavidade do fixador 01",
+      "mesh": "CC_REMESH_0039",
+      "method": "QUADWILD",
+      "source_faces": 3356,
+      "faces": 5688,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 5690,
+          "edges": 11376,
+          "faces": 5688,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 5688
+        },
+        "sampled_max_mm": 0.02829970356668837,
+        "sampled_mean_mm": 0.004494863099035342,
+        "guide_surface_max_mm": 0.0012720990382923633,
+        "samples": 22102,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 5690,
+            "edges": 11376,
+            "faces": 5688,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 5688
+          },
+          "sampled_max_mm": 0.02829970356668837,
+          "sampled_mean_mm": 0.004494863099035342,
+          "guide_surface_max_mm": 0.0012720990382923633,
+          "samples": 22102,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 35 | Fixador 02",
+      "mesh": "CC_REMESH_0040",
+      "method": "QUADWILD",
+      "source_faces": 11756,
+      "faces": 9890,
+      "materials": [
+        "Fixadores | aco escurecido"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 9892,
+          "edges": 19780,
+          "faces": 9890,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 9890
+        },
+        "sampled_max_mm": 0.026991578592548512,
+        "sampled_mean_mm": 0.006683350903570078,
+        "guide_surface_max_mm": 0.0011929035442404955,
+        "samples": 37418,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 9892,
+            "edges": 19780,
+            "faces": 9890,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9890
+          },
+          "sampled_max_mm": 0.045554746073098104,
+          "sampled_mean_mm": 0.016900849418715405,
+          "guide_surface_max_mm": 0.0011929035442404955,
+          "samples": 37418,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 9892,
+            "edges": 19780,
+            "faces": 9890,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9890
+          },
+          "sampled_max_mm": 0.026991578592548512,
+          "sampled_mean_mm": 0.006683350903570078,
+          "guide_surface_max_mm": 0.0011929035442404955,
+          "samples": 37418,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 36 | Cavidade do fixador 02",
+      "mesh": "CC_REMESH_0041",
+      "method": "QUADWILD",
+      "source_faces": 3356,
+      "faces": 4580,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 4582,
+          "edges": 9160,
+          "faces": 4580,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 4580
+        },
+        "sampled_max_mm": 0.0210690164559463,
+        "sampled_mean_mm": 0.0026875865813663575,
+        "guide_surface_max_mm": 0.0008924233346304138,
+        "samples": 18778,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 4582,
+            "edges": 9160,
+            "faces": 4580,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 4580
+          },
+          "sampled_max_mm": 0.0210690164559463,
+          "sampled_mean_mm": 0.0026875865813663575,
+          "guide_surface_max_mm": 0.0008924233346304138,
+          "samples": 18778,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 35 | Fixador 03",
+      "mesh": "CC_REMESH_0042",
+      "method": "QUADWILD",
+      "source_faces": 11756,
+      "faces": 10774,
+      "materials": [
+        "Fixadores | aco escurecido"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 10776,
+          "edges": 21548,
+          "faces": 10774,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 10774
+        },
+        "sampled_max_mm": 0.018962614950260703,
+        "sampled_mean_mm": 0.002925914053723152,
+        "guide_surface_max_mm": 0.0009908233015794461,
+        "samples": 39186,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": false,
+          "reasons": [
+            "erro de superficie acima da tolerancia"
+          ],
+          "topology": {
+            "vertices": 10776,
+            "edges": 21548,
+            "faces": 10774,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 10774
+          },
+          "sampled_max_mm": 0.03603685531112938,
+          "sampled_mean_mm": 0.0114952062925385,
+          "guide_surface_max_mm": 0.0013127903434498392,
+          "samples": 39186,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        },
+        {
+          "stage": "projected",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 10776,
+            "edges": 21548,
+            "faces": 10774,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 10774
+          },
+          "sampled_max_mm": 0.018962614950260703,
+          "sampled_mean_mm": 0.002925914053723152,
+          "guide_surface_max_mm": 0.0009908233015794461,
+          "samples": 39186,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 36 | Cavidade do fixador 03",
+      "mesh": "CC_REMESH_0043",
+      "method": "QUADWILD",
+      "source_faces": 3356,
+      "faces": 3426,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 3428,
+          "edges": 6852,
+          "faces": 3426,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 3426
+        },
+        "sampled_max_mm": 0.018266603601095856,
+        "sampled_mean_mm": 0.002011462642244135,
+        "guide_surface_max_mm": 0.0014239140041388387,
+        "samples": 15316,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 3428,
+            "edges": 6852,
+            "faces": 3426,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 3426
+          },
+          "sampled_max_mm": 0.018266603601095856,
+          "sampled_mean_mm": 0.002011462642244135,
+          "guide_surface_max_mm": 0.0014239140041388387,
+          "samples": 15316,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 35 | Fixador 04",
+      "mesh": "CC_REMESH_0044",
+      "method": "QUADWILD",
+      "source_faces": 11756,
+      "faces": 9510,
+      "materials": [
+        "Fixadores | aco escurecido"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 9512,
+          "edges": 19020,
+          "faces": 9510,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 9510
+        },
+        "sampled_max_mm": 0.03233643806612728,
+        "sampled_mean_mm": 0.008724092958857389,
+        "guide_surface_max_mm": 0.0009055624592478269,
+        "samples": 36658,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 9512,
+            "edges": 19020,
+            "faces": 9510,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 9510
+          },
+          "sampled_max_mm": 0.03233643806612728,
+          "sampled_mean_mm": 0.008724092958857389,
+          "guide_surface_max_mm": 0.0009055624592478269,
+          "samples": 36658,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 36 | Cavidade do fixador 04",
+      "mesh": "CC_REMESH_0045",
+      "method": "QUADWILD",
+      "source_faces": 3356,
+      "faces": 3408,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 3410,
+          "edges": 6816,
+          "faces": 3408,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 3408
+        },
+        "sampled_max_mm": 0.01008124394515803,
+        "sampled_mean_mm": 0.001251249999638201,
+        "guide_surface_max_mm": 0.0021475707293017138,
+        "samples": 15262,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 3410,
+            "edges": 6816,
+            "faces": 3408,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 3408
+          },
+          "sampled_max_mm": 0.01008124394515803,
+          "sampled_mean_mm": 0.001251249999638201,
+          "guide_surface_max_mm": 0.0021475707293017138,
+          "samples": 15262,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 35 | Fixador 05",
+      "mesh": "CC_REMESH_0046",
+      "method": "QUADWILD",
+      "source_faces": 11756,
+      "faces": 10134,
+      "materials": [
+        "Fixadores | aco escurecido"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 10136,
+          "edges": 20268,
+          "faces": 10134,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 10134
+        },
+        "sampled_max_mm": 0.019487609503856744,
+        "sampled_mean_mm": 0.003219292917407042,
+        "guide_surface_max_mm": 0.0008198327738796113,
+        "samples": 37906,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 10136,
+            "edges": 20268,
+            "faces": 10134,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 10134
+          },
+          "sampled_max_mm": 0.019487609503856744,
+          "sampled_mean_mm": 0.003219292917407042,
+          "guide_surface_max_mm": 0.0008198327738796113,
+          "samples": 37906,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 36 | Cavidade do fixador 05",
+      "mesh": "CC_REMESH_0047",
+      "method": "QUADWILD",
+      "source_faces": 3356,
+      "faces": 3480,
+      "materials": [
+        "Cavidades | preto profundo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 3482,
+          "edges": 6960,
+          "faces": 3480,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 3480
+        },
+        "sampled_max_mm": 0.005530172479445872,
+        "sampled_mean_mm": 0.0010230982625593298,
+        "guide_surface_max_mm": 0.0006279095588684116,
+        "samples": 15478,
+        "guide_segments_tested": 420,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 3482,
+            "edges": 6960,
+            "faces": 3480,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 3480
+          },
+          "sampled_max_mm": 0.005530172479445872,
+          "sampled_mean_mm": 0.0010230982625593298,
+          "guide_surface_max_mm": 0.0006279095588684116,
+          "samples": 15478,
+          "guide_segments_tested": 420,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    },
+    {
+      "source": "CAD | 37 | Tampa posterior lisa",
+      "mesh": "CC_REMESH_0048",
+      "method": "QUADWILD",
+      "source_faces": 9120,
+      "faces": 8659,
+      "materials": [
+        "Preto fosco | corpo"
+      ],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 8661,
+          "edges": 17318,
+          "faces": 8659,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 8659
+        },
+        "sampled_max_mm": 0.025093274490633,
+        "sampled_mean_mm": 0.001702924666520656,
+        "guide_surface_max_mm": 0.025093274490633,
+        "samples": 30984,
+        "guide_segments_tested": 976,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "native",
+          "density": 0.7142857264499277,
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 8661,
+            "edges": 17318,
+            "faces": 8659,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 8659
+          },
+          "sampled_max_mm": 0.025093274490633,
+          "sampled_mean_mm": 0.001702924666520656,
+          "guide_surface_max_mm": 0.025093274490633,
+          "samples": 30984,
+          "guide_segments_tested": 976,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    }
+  ],
+  "elapsed_s": 211.8,
+  "engine": "QuadWild + Bi-MDF",
+  "settings": {
+    "method": "AUTO",
+    "density": 1.399999976158142,
+    "tolerance_mm": 0.03500000014901161,
+    "sharp_angle": 35.0,
+    "cad_guides": true,
+    "material_guides": true,
+    "attempts": 1,
+    "solver_seconds": 90,
+    "max_faces": 2000000
+  }
+}

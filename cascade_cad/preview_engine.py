@@ -59,4 +59,3 @@ class PreviewEngine:
         self.process.wait()
         self.log.close()
         self.folder.cleanup()
-

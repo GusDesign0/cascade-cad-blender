@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "objects": [
+    {
+      "source": "Remesh Test",
+      "mesh": "CC_REMESH_0000",
+      "method": "EXACT",
+      "source_faces": 12,
+      "faces": 24,
+      "materials": [],
+      "result": {
+        "accepted": true,
+        "reasons": [],
+        "topology": {
+          "vertices": 26,
+          "edges": 48,
+          "faces": 24,
+          "components": 1,
+          "euler": 2,
+          "nonmanifold": 0,
+          "degenerate": 0,
+          "quads": 24
+        },
+        "sampled_max_mm": 3.638989328086569e-06,
+        "sampled_mean_mm": 1.7942902710230735e-06,
+        "guide_surface_max_mm": 1.9451215577397977e-06,
+        "samples": 94,
+        "guide_segments_tested": 12,
+        "tolerance_mm": 0.03500000014901161
+      },
+      "attempts": [
+        {
+          "stage": "exact",
+          "accepted": true,
+          "reasons": [],
+          "topology": {
+            "vertices": 26,
+            "edges": 48,
+            "faces": 24,
+            "components": 1,
+            "euler": 2,
+            "nonmanifold": 0,
+            "degenerate": 0,
+            "quads": 24
+          },
+          "sampled_max_mm": 3.638989328086569e-06,
+          "sampled_mean_mm": 1.7942902710230735e-06,
+          "guide_surface_max_mm": 1.9451215577397977e-06,
+          "samples": 94,
+          "guide_segments_tested": 12,
+          "tolerance_mm": 0.03500000014901161
+        }
+      ],
+      "native_note": null
+    }
+  ],
+  "elapsed_s": 0.01,
+  "engine": "QuadWild + Bi-MDF",
+  "settings": {
+    "method": "EXACT",
+    "density": 1.399999976158142,
+    "tolerance_mm": 0.03500000014901161,
+    "sharp_angle": 35.0,
+    "cad_guides": true,
+    "material_guides": true,
+    "attempts": 2,
+    "solver_seconds": 90,
+    "max_faces": 2000000
+  }
+}

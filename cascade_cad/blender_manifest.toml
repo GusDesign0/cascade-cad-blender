@@ -1,6 +1,6 @@
 schema_version = "1.0.0"
 id = "cascade_cad"
-version = "0.2.0"
+version = "0.3.0"
 name = "Cascade CAD"
 tagline = "Solid CAD modeling with a local Open CASCADE engine"
 maintainer = "Cascade CAD contributors"
@@ -10,6 +10,7 @@ blender_version_min = "4.2.0"
 license = ["SPDX:GPL-3.0-or-later"]
 platforms = ["windows-x64", "linux-x64", "macos-arm64", "macos-x64"]
 [permissions]
+network = "Download the optional verified QuadWild remesh engine"
 files = "Read and write STEP files and temporary CAD worker requests"
 [build]
 paths_exclude_pattern = ["__pycache__/", "*.pyc", ".*"]

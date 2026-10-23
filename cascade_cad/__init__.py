@@ -2,7 +2,7 @@
 Copyright 2026 Cascade CAD contributors. GPL-3.0-or-later.
 """
 bl_info = {'name': 'Cascade CAD', 'author': 'Cascade CAD contributors',
-           'version': (0, 2, 0), 'blender': (4, 2, 0), 'category': 'Mesh',
+           'version': (0, 3, 0), 'blender': (4, 2, 0), 'category': 'Mesh',
            'location': 'View3D > Sidebar > CAD',
            'description': 'Solid modeling using a local Open CASCADE worker'}
 
@@ -830,6 +830,8 @@ CLASSES = (CADPreferences, CADSettings, CADRun, CADDraw, CADPick, CADFilletLive,
 
 
 def register():
+    from . import remesh
+    remesh.register()
     global _selection_handle
     for cls in CLASSES:
         bpy.utils.register_class(cls)
@@ -848,6 +850,8 @@ def register():
 
 
 def unregister():
+    from . import remesh
+    remesh.unregister()
     global _selection_handle
     shutdown_preview()
     if before_load in bpy.app.handlers.load_pre:

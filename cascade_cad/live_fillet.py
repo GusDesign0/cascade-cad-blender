@@ -416,4 +416,3 @@ class CADFilletLive(bpy.types.Operator):
             self.cleanup(context)
             self.report({'ERROR'}, str(exc))
             return {'CANCELLED'}
-

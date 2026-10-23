@@ -179,4 +179,3 @@ if __name__ == '__main__':
         response = {'ok': False, 'error': str(exc), 'traceback': traceback.format_exc()}
     with open(sys.argv[2], 'w', encoding='utf-8') as stream:
         json.dump(response, stream, allow_nan=False)
-

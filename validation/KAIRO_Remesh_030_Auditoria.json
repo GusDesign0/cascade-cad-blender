@@ -1,0 +1,250 @@
+{
+  "objects": 49,
+  "faces": 951410,
+  "quads_only": true,
+  "source_BREP_preserved": true,
+  "mesh_contacts": [
+    {
+      "part": "02 | Punho — contorno ergonomico",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "03 | Sapata inferior do punho",
+      "host": "02 | Punho — contorno ergonomico",
+      "intersects": true
+    },
+    {
+      "part": "04 | Estrutura diagonal",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "05 | Ponte inferior fina",
+      "host": "02 | Punho — contorno ergonomico",
+      "intersects": true
+    },
+    {
+      "part": "06 | Degrau frontal",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "07 | Degrau traseiro",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "08 | Mira compacta",
+      "host": "07 | Degrau traseiro",
+      "intersects": true
+    },
+    {
+      "part": "09 | Base da mira",
+      "host": "07 | Degrau traseiro",
+      "intersects": true
+    },
+    {
+      "part": "10 | Painel superior chanfrado",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "11 | Linha inferior da ventilacao",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "12 | Tampa traseira pequena",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "13 | Carenagem lateral escalonada",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "14 | Fundo da linha longitudinal",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "15 | Botao retangular rebaixado",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "16 | Inserto do botao",
+      "host": "15 | Botao retangular rebaixado",
+      "intersects": true
+    },
+    {
+      "part": "17 | Botao inferior",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "18 | Moldura da abertura inferior",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "19 | Tecla interna escura",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "20 | Carenagem frontal",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "21 | Faixa inferior frontal",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    },
+    {
+      "part": "22 | Reforco acima do punho",
+      "host": "02 | Punho — contorno ergonomico",
+      "intersects": true
+    },
+    {
+      "part": "23 | Inserto de borracha texturada",
+      "host": "02 | Punho — contorno ergonomico",
+      "intersects": true
+    },
+    {
+      "part": "24 | Friso da sapata",
+      "host": "03 | Sapata inferior do punho",
+      "intersects": true
+    },
+    {
+      "part": "25 | Rebaixo da sapata",
+      "host": "03 | Sapata inferior do punho",
+      "intersects": true
+    },
+    {
+      "part": "26 | Moldura diagonal azul escura",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "27 | Canal diagonal rebaixado",
+      "host": "26 | Moldura diagonal azul escura",
+      "intersects": true
+    },
+    {
+      "part": "28 | Vinca diagonal comprida",
+      "host": "27 | Canal diagonal rebaixado",
+      "intersects": true
+    },
+    {
+      "part": "29 | Tampa inferior diagonal",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "30 | Conector circular embutido",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "31 | Aro do conector",
+      "host": "30 | Conector circular embutido",
+      "intersects": true
+    },
+    {
+      "part": "32 | Centro do conector",
+      "host": "31 | Aro do conector",
+      "intersects": true
+    },
+    {
+      "part": "33 | Painel junto ao conector",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "34 | Canelura traseira 0",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "34 | Canelura traseira 1",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "34 | Canelura traseira 2",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "35 | Fixador 00",
+      "host": "10 | Painel superior chanfrado",
+      "intersects": true
+    },
+    {
+      "part": "36 | Cavidade do fixador 00",
+      "host": "35 | Fixador 00",
+      "intersects": true
+    },
+    {
+      "part": "35 | Fixador 01",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "36 | Cavidade do fixador 01",
+      "host": "35 | Fixador 01",
+      "intersects": true
+    },
+    {
+      "part": "35 | Fixador 02",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "36 | Cavidade do fixador 02",
+      "host": "35 | Fixador 02",
+      "intersects": true
+    },
+    {
+      "part": "35 | Fixador 03",
+      "host": "04 | Estrutura diagonal",
+      "intersects": true
+    },
+    {
+      "part": "36 | Cavidade do fixador 03",
+      "host": "35 | Fixador 03",
+      "intersects": true
+    },
+    {
+      "part": "35 | Fixador 04",
+      "host": "23 | Inserto de borracha texturada",
+      "intersects": true
+    },
+    {
+      "part": "36 | Cavidade do fixador 04",
+      "host": "35 | Fixador 04",
+      "intersects": true
+    },
+    {
+      "part": "35 | Fixador 05",
+      "host": "13 | Carenagem lateral escalonada",
+      "intersects": true
+    },
+    {
+      "part": "36 | Cavidade do fixador 05",
+      "host": "35 | Fixador 05",
+      "intersects": true
+    },
+    {
+      "part": "37 | Tampa posterior lisa",
+      "host": "01 | Corpo — contorno da referencia",
+      "intersects": true
+    }
+  ],
+  "ground_gap_mm": -3.7791885176829965e-06,
+  "reopened": true
+}
