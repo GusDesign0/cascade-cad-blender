@@ -11,7 +11,7 @@ if (-not (Test-Path -LiteralPath $pythonExe)) {
     Remove-Item -LiteralPath $archivePath
 }
 @('python312.zip', '.', 'Lib\site-packages', 'import site') | Set-Content -LiteralPath (Join-Path $runtimeTarget 'python312._pth') -Encoding ascii
-& $pythonExe -c 'import importlib.util,sys; sys.exit(0 if importlib.util.find_spec("pip") else 1)'
+& $pythonExe -c "import importlib.util,sys; sys.exit(0 if importlib.util.find_spec('pip') else 1)"
 if ($LASTEXITCODE -ne 0) {
     $bootstrapPath = Join-Path $runtimeTarget 'get-pip.py'
     Invoke-WebRequest -Uri 'https://bootstrap.pypa.io/get-pip.py' -OutFile $bootstrapPath
@@ -26,7 +26,7 @@ if (Test-Path -LiteralPath $requirementsPath) {
     & $pythonExe -m pip install --disable-pip-version-check --no-warn-script-location 'cadquery==2.6.1' 'cadquery-ocp==7.8.1.1.post1'
 }
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao instalar o motor CAD' }
-& $pythonExe -c 'import cadquery, OCP; print("CAD OK:", cadquery.__version__, OCP.__version__)'
+& $pythonExe -c "import cadquery, OCP; print('CAD OK:', cadquery.__version__, OCP.__version__)"
 if ($LASTEXITCODE -ne 0) { throw 'O teste de importacao do motor falhou' }
 Write-Host "Motor instalado: $pythonExe"
 Write-Host 'O plugin detecta automaticamente este caminho padrao. Reinicie o Blender se necessario.'
