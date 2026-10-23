@@ -6,25 +6,25 @@
       "mesh": "CC_REMESH_0000",
       "method": "EXACT",
       "source_faces": 12,
-      "faces": 24,
+      "faces": 36,
       "materials": [],
       "result": {
         "accepted": true,
         "reasons": [],
         "topology": {
-          "vertices": 26,
-          "edges": 48,
-          "faces": 24,
+          "vertices": 38,
+          "edges": 72,
+          "faces": 36,
           "components": 1,
           "euler": 2,
           "nonmanifold": 0,
           "degenerate": 0,
-          "quads": 24
+          "quads": 36
         },
-        "sampled_max_mm": 3.638989328086569e-06,
-        "sampled_mean_mm": 1.7942902710230735e-06,
-        "guide_surface_max_mm": 1.9451215577397977e-06,
-        "samples": 94,
+        "sampled_max_mm": 6.093075990903678e-06,
+        "sampled_mean_mm": 1.3848468014467757e-06,
+        "guide_surface_max_mm": 0.0,
+        "samples": 130,
         "guide_segments_tested": 12,
         "tolerance_mm": 0.03500000014901161
       },
@@ -34,19 +34,19 @@
           "accepted": true,
           "reasons": [],
           "topology": {
-            "vertices": 26,
-            "edges": 48,
-            "faces": 24,
+            "vertices": 38,
+            "edges": 72,
+            "faces": 36,
             "components": 1,
             "euler": 2,
             "nonmanifold": 0,
             "degenerate": 0,
-            "quads": 24
+            "quads": 36
           },
-          "sampled_max_mm": 3.638989328086569e-06,
-          "sampled_mean_mm": 1.7942902710230735e-06,
-          "guide_surface_max_mm": 1.9451215577397977e-06,
-          "samples": 94,
+          "sampled_max_mm": 6.093075990903678e-06,
+          "sampled_mean_mm": 1.3848468014467757e-06,
+          "guide_surface_max_mm": 0.0,
+          "samples": 130,
           "guide_segments_tested": 12,
           "tolerance_mm": 0.03500000014901161
         }
