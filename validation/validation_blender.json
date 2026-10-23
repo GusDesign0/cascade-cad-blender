@@ -1,0 +1,81 @@
+{
+  "blender": "5.2.2 LTS",
+  "checks": [
+    {
+      "name": "runtime ping",
+      "passed": true
+    },
+    {
+      "name": "CAD block",
+      "passed": true
+    },
+    {
+      "name": "CAD fillet",
+      "passed": true
+    },
+    {
+      "name": "CAD cylinder",
+      "passed": true
+    },
+    {
+      "name": "CAD cut transformed cutter",
+      "passed": true
+    },
+    {
+      "name": "CAD second cut",
+      "passed": true
+    },
+    {
+      "name": "CAD boss",
+      "passed": true
+    },
+    {
+      "name": "CAD union",
+      "passed": true
+    },
+    {
+      "name": "CAD center hole",
+      "passed": true
+    },
+    {
+      "name": "CAD bore",
+      "passed": true
+    },
+    {
+      "name": "CAD STEP export",
+      "passed": true
+    },
+    {
+      "name": "CAD STEP import",
+      "passed": true
+    },
+    {
+      "name": "failed fillet preserves model",
+      "passed": true
+    },
+    {
+      "name": "edited preview detected",
+      "passed": true
+    },
+    {
+      "name": "restore original CAD preview",
+      "passed": true
+    },
+    {
+      "name": "independent mesh conversion",
+      "passed": true
+    },
+    {
+      "name": "CAD operation after file reopen",
+      "passed": true
+    },
+    {
+      "name": "BREP persisted across blend reopen",
+      "passed": true
+    },
+    {
+      "name": "unregister and register",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "multiple radii match independent CAD operations without cumulative fillets",
+    "invalid radius leaves engine alive and valid radius recovers",
+    "signed distance produces real CAD chamfer",
+    "latest request wins when pointer updates arrive in a burst",
+    "final commit contains valid BREP and CAD selection mapping",
+    "selection changes recalculate from untouched source",
+    "preview also fillets circular edges of a boolean solid with a hole"
+  ],
+  "calculation_ms": [
+    94.00000000096043,
+    78.00000000133878,
+    77.9999999977008,
+    125.0,
+    78.00000000133878,
+    77.9999999977008
+  ],
+  "median_ms": 78.00000000133878,
+  "max_ms": 125.0
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.blend1
+work/
+dist/
+validation_*.json
+ui_failure.txt
+

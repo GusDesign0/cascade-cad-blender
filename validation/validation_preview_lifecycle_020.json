@@ -1,0 +1,5 @@
+[
+  "Escape while computation is pending kills worker and preserves original",
+  "preview engine restarts after cancelled pending job",
+  "opening another file during preview removes handlers and shuts down worker"
+]
